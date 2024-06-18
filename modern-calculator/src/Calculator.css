@@ -1,0 +1,49 @@
+/* src/Calculator.css */
+.calculator {
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+        width: 300px;
+          margin: 50px auto;
+            padding: 20px;
+              background-color: #333;
+                border-radius: 10px;
+                }
+
+                #display {
+                  grid-column: span 4;
+                    background-color: #000;
+                      color: #fff;
+                        font-size: 2rem;
+                          text-align: right;
+                            padding: 20px;
+                              border-radius: 5px;
+                                margin-bottom: 10px;
+                                }
+
+                                button {
+                                  padding: 20px;
+                                    font-size: 1.5rem;
+                                      cursor: pointer;
+                                        border: none;
+                                          border-radius: 5px;
+                                            background-color: #444;
+                                              color: white;
+                                              }
+
+                                              button:hover {
+                                                background-color: #555;
+                                                }
+
+                                                button:active {
+                                                  background-color: #666;
+                                                  }
+
+                                                  #equals {
+                                                    grid-column: span 2;
+                                                      background-color: #f90;
+                                                      }
+
+                                                      #clear {
+                                                        background-color: #f44;
+                                                        }
