@@ -1,2 +1,2 @@
 # calculator
-A simple calculator in JavaScript built using react framework 
+A  calculator in JavaScript built using react framework 
